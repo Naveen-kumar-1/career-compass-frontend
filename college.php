@@ -27,12 +27,13 @@
       <section class="course">
       <h1>Colleges To Choose</h1>
       <p>Explore a wide variety of academy to your future!</p>
-      <section class="search-bar">
+      <div class="search-bar">
       <input
         type="text"
         id="searchInput"
         placeholder="Search colleges..."
       />
+    </div>
       <div class="row" id="collegeList">
         <?php 
         // Include database configuration
@@ -77,7 +78,7 @@
         </div>
         <?php endif; ?>
       </div>
-    </section>
+    </div>
 
     <!-- Footer Section -->
     <section class="footer">
