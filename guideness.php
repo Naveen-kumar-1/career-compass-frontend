@@ -13,30 +13,17 @@
   <body>
     <!-- top section -->
     <section class="sub-header">
-      <nav>
-        <a href="index.html"><img src="images/logo.png" alt="" /></a>
-        <div class="nav-links" id="nav-links">
-          <i class="bx bx-x" id="close"></i>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="course.html">COURSE</a></li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-          </ul>
-        </div>
-        <i class="bx bx-menu-alt-left" id="menu"></i>
-      </nav>
-      <h1>Our Certificate & Online Programs For 2024</h1>
+    <?php if(file_exists('navbar.php')){include 'navbar.php';} ?>
+      <h1>Personal Guideness For Choose you Career</h1>
     </section>
 
     <!-- blog page content -->
 
     <section class="blog-content">
-      <div class="row">
-        <div class="blog-left">
-          <img src="images/certificate.jpg" alt="" />
-          <h2>Our Certificate & Online Programs For 2024</h2>
+     
+      
+          <!-- <img src="images/certificate.jpg" alt="" /> -->
+          <h2>Personal Guideness For Choose you Career</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit,
             et. Fugiat quo inventore reiciendis vero, quidem eveniet nisi? Eum
@@ -85,43 +72,9 @@
             recusandae illo qui ad accusamus eos!
             </p>
 
-<div class="command-box">
-  <h3>
-    Leave a Command
-  </h3>
-  <form action="" class="command-form">
-    <input type="text" placeholder="Enter name">
-    <input type="email" placeholder="Enter email">
-    <textarea rows="5" placeholder="You'r command"></textarea>
-    <button type="submit" class="hero-btn red-btn">POST COMMAND</button>
-  </form>
-</div>
 
 
-        </div>
-        <div class="blog-right">
-          <h3>Post Categories</h3>
-          <div>
-            <span>Business Analytics</span>
-            <span>21</span>
-          </div>
-          <div>
-            <span>Computer Science</span>
-            <span>21</span>
-          </div>
-          <div>
-            <span>Camputer Application</span>
-            <span>21</span>
-          </div>
-          <div>
-            <span>Infermation Technology</span>
-            <span>21</span>
-          </div>
-          <div>
-            <span>Cyber Security</span>
-            <span>21</span>
-          </div>
-        </div>
+        
       </div>
     </section>
 

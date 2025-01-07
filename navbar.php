@@ -6,8 +6,7 @@
             <li><a href="index.php">HOME</a></li>
             <li><a href="college.php">COLLEGE</a></li>
             <li><a href="course.php">COURSE</a></li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="guideness.php">Personal Guideness</a></li>
           </ul>
         </div>
         <i class="bx bx-menu-alt-left" id="menu"></i>
